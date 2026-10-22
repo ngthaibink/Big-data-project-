@@ -1,0 +1,24 @@
+@"
+DU AN BIG DATA - HOTEL BOOKING
+Ngay cap nhat: 21/10/2026
+
+Du lieu CSV: data\hotel_bookings.csv
+Tong so ban ghi goc: 119390
+
+Kafka: C:\kafka_2.13-4.3.1
+Topic demo: hotel_booking
+Topic du lieu day du: hotel_booking_full
+
+File demo: output\kafka_hotel_booking.jsonl
+File day du du kien: output\kafka_hotel_booking_full.jsonl
+
+Code:
+- producer.py
+- kafka_to_hdfs.py
+- spark_process.py
+
+Buoc tiep theo:
+- Xac nhan file JSONL day du da tao
+- Kiem tra du lieu tren HDFS
+- Chay Spark tren toan bo du lieu
+"@ | Set-Content -Encoding UTF8 .\TIEN_DO_DU_AN.txt
